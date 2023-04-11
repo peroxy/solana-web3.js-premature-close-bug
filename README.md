@@ -1,4 +1,4 @@
-Using the Connection class' method getAccountInfo with Promise.all and more than 24 requests will fail with:
+Using the Connection class' method getAccountInfo with Promise.all and more than 25 requests will fail with:
 
 Error: failed to get info about account Cfuy5T6osdazUeLego5LFycBQebm9PP3H7VNdCndXXEN: **FetchError: Invalid response body while trying to fetch <redacted RPC url> Premature close**
 at Connection.getAccountInfo (/home/dev/sandbox/test/node_modules/@solana/web3.js/src/connection.ts:3517:13)
